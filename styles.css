@@ -35,7 +35,7 @@ body {
 }
 
 .seat {
-    background-color: #44451;
+    background-color: #444451;
     height: 12px;
     width: 15px;
     margin: 3px;
@@ -43,3 +43,10 @@ body {
     border-top-right-radius: 10px;
 }
 
+.seat.selected {
+    background-color: aqua;
+}
+
+.row {
+    display: flex;
+}
