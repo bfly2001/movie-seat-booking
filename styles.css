@@ -47,6 +47,10 @@ body {
     background-color: aqua;
 }
 
+.seat.occupied {
+    background-color: white;
+}
+
 .row {
     display: flex;
 }
